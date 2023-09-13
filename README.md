@@ -1,11 +1,11 @@
 # hdf5_mpi_install
 # Steps
 ## to install hdf5 and openmpi together
-sudo apt-get install -y libhdf5-openmpi-dev  
+sudo apt-get install -y libhdf5-openmpi-dev  <br/>
 
  ls
 //
-git clone https://github.com/HDFGroup/Tutorial.git   
+git clone https://github.com/HDFGroup/Tutorial.git   <br/>
 //
 ls 
 //
@@ -18,8 +18,8 @@ cd Tutorial/  //
   598  srun -n 4 ./h5par_ex0
   599  sudo apt install slurm-clinet
   600  sudo apt install slurm-client
-  601  srun -n 4 ./h5par_ex0
-  602  srun -n 2 ./h5par_ex0
+  601  srun -n 4 ./h5par_ex0<br/>
+  602  srun -n 2 ./h5par_ex0<br/>
   603  srun -n 1 ./h5par_ex0
   604  ln -s /usr/lib64/slurm/auth_munge.so /usr/local/lib/slurm/auth_munge.so
   605  mpirun -n 1 ./h5par_ex0
