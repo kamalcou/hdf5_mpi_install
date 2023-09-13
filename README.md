@@ -2,10 +2,13 @@
 # Steps
 ## to install hdf5 and openmpi together
 sudo apt-get install -y libhdf5-openmpi-dev
-
+//
  ls
-git clone https://github.com/HDFGroup/Tutorial.git //
-ls //
+//
+git clone https://github.com/HDFGroup/Tutorial.git 
+//
+ls 
+//
 cd Tutorial/  //
   561  ls
   562  cd Parallel-hands-on-tutorial/
