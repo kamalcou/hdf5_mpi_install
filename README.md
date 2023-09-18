@@ -8,7 +8,7 @@ sudo apt-get install -y libhdf5-openmpi-dev  <br/>
 git clone https://github.com/HDFGroup/Tutorial.git   <br/>
 cd Tutorial/  <br/>
 
-cd Parallel-hands-on-tutorial/
+cd Parallel-hands-on-tutorial/ <br/>
 ls -la
 ### Run Make file to compile
 make
